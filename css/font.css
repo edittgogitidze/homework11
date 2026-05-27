@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Inter 28pt";
+  src: url("../fonts/Inter28pt-Medium.eot");
+  src:
+    url("../fonts/Inter28pt-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inter28pt-Medium.woff2") format("woff2"),
+    url("../fonts/Inter28pt-Medium.woff") format("woff"),
+    url("../fonts/Inter28pt-Medium.ttf") format("truetype"),
+    url("../fonts/Inter28pt-Medium.svg#Inter28pt-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/Abel-Regular.eot');
+    src: url('../fonts/Abel-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Abel-Regular.woff2') format('woff2'),
+        url('../fonts/Abel-Regular.woff') format('woff'),
+        url('../fonts/Abel-Regular.ttf') format('truetype'),
+        url('../fonts/Abel-Regular.svg#Abel-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
