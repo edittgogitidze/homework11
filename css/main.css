@@ -243,8 +243,8 @@ span {
 .star-class {
   margin-top: 32px;
   display: flex;
-  align-items: center;
   column-gap: 2px;
+  align-items: center;
 }
 .photo-class {
   border-radius: 32px;
