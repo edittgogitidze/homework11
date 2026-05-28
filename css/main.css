@@ -152,7 +152,6 @@ span {
 }
 .img-style {
   width: 100%;
-  border-radius: 32px 32px 0px 0px;
   display: block;
 }
 .arrow-class {
@@ -203,11 +202,54 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
-
 .about-country {
   display: flex;
   column-gap: 32px;
 }
+.mini-box h5 {
+  color: #191825;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+.description {
+  padding: 32px 0px;
+}
+.description p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #191825bf;
+  line-height: 160%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+.mini-box {
+  width: 309.33px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.description h6 {
+  color: #f85e9f;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+.star-class {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+.photo-class {
+  border-radius: 32px;
+}
+
 
 @media (max-width: 1024px) {
   .buttons-class {
@@ -288,6 +330,19 @@ span {
   }
   .text-class h3 {
     font-size: 40px;
+  }
+  .mini-box {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 32px 0px;
+
+  }
+  .mini-box h5 {
+    order: 2;
+  }
+  .mini-box h6 {
+    order: 1;
   }
 }
 
