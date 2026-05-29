@@ -208,6 +208,57 @@ span {
   display: flex;
   column-gap: 32px;
 }
+.photo-class {
+  width: 373.33px;
+  border-radius: 32px;
+}
+.mini-box {
+  width: 309.33px;
+  display: flex;
+}
+.description {
+  padding: 32px;
+  width: 309.33px;
+}
+.star-class {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+.star-class h6 {
+  color: #ff5722;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+
+.mini-box h5 {
+  color: #191825;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+.mini-box h6 {
+  color: #f85e9f;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
+.mini-box p {
+  color: #191825bf;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  font-family: "Inter 28pt";
+}
 
 .large-class {
   max-width: 1312px;
@@ -227,7 +278,7 @@ span {
   display: flex;
   flex-direction: column;
   row-gap: 64px;
-  text-align: center;
+  align-items: center;
 }
 .different-section {
   margin-right: 139px;
@@ -271,6 +322,9 @@ span {
   padding: 32px 31.25px;
   text-align: center;
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 .wraper-style h5 {
   color: #ff5722;
@@ -288,6 +342,7 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
+
 
 @media (max-width: 1024px) {
   .buttons-class {
@@ -374,6 +429,16 @@ span {
     row-gap: 64px;
   }
   .helping-class {
+    width: 100%;
+    text-align: center;
+  }
+  .mini-box {
+    width: 100%;
+  }
+  .photo-class{
+    width: 100%;
+  }
+  .description{
     width: 100%;
   }
 }
