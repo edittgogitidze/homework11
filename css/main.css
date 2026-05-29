@@ -342,8 +342,6 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
-
-
 @media (max-width: 1024px) {
   .buttons-class {
     width: 100%;
