@@ -310,6 +310,7 @@ span {
   font-family: "Inter 28pt";
 }
 .wraper-class {
+  width: 441px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -321,10 +322,13 @@ span {
   border-radius: 32px;
   padding: 32px 31.25px;
   text-align: center;
-  width: 40%;
+  width: 204px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   row-gap: 16px;
+
+  
+  /* row-gap: 16px; */
 }
 .wraper-style h5 {
   color: #ff5722;
@@ -342,6 +346,50 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1024px) {
   .buttons-class {
     width: 100%;
@@ -416,6 +464,19 @@ span {
     row-gap: 67px;
     padding: 64px 0px;
   }
+  .wraper-class{
+    display: flex;
+    flex-wrap: wrap;
+    width: 832px;
+  }
+  .wraper-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex-direction: column;
+  }
+
   .for-margin {
     margin-top: 223.62px;
   }
@@ -499,6 +560,7 @@ span {
     width: 392px;
   }
   .wraper-class {
+    width: 100%;
     flex-direction: column;
     row-gap: 16px;
     align-items: center;
