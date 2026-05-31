@@ -752,6 +752,9 @@ span {
     display: none;
   }
  
+.right-side{
+  flex-direction: column;
+  row-gap: 64px;
+}
 
-  
 }
