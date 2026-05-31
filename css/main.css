@@ -115,12 +115,18 @@ span {
   align-items: center;
   column-gap: 16px;
 }
-.buttons-block h5 a {
-  background-color: #5d50c6;
+.lilac-button{
+  width: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ padding: 16px 0px;
+   border-radius: 100px;
+   background-color: #5d50c6;
+   box-shadow: 0px 20px 35px #0000001A;
+}
+.lilac-button a{
   color: #eeeeee;
-  /* width: 141px; */
-  padding: 16px 32px;
-  border-radius: 100px;
   font-size: 14px;
   font-weight: 700;
   line-height: 120%;
@@ -130,6 +136,7 @@ span {
 .demo-class {
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 3.5px;
   background-color: #fff;
   width: 181px;
@@ -140,6 +147,8 @@ span {
   line-height: 120%;
   letter-spacing: 0%;
   font-family: "Inter 28pt";
+  border: 1px solid #EEEEEE;
+  border-radius: 100px;
 }
 .explore-class {
   max-width: 1184px;
@@ -537,6 +546,7 @@ span {
     padding: 4px;
     color: #fff;
   }
+ 
   .travel-class {
     flex-direction: column;
     row-gap: 64px;
@@ -651,10 +661,12 @@ span {
     line-height: 120%;
     letter-spacing: 0%;
     font-family: "Inter 28pt";
+    width: 100%;
   }
   .demo-class {
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   h1 {
     font-size: 40px;
@@ -680,6 +692,16 @@ span {
     align-items: center;
   }
   .wraper-style {
+    width: 100%;
+  }
+.about-services{
+  height: 290px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  row-gap: 32px;
+}
+ .lilac-button{
     width: 100%;
   }
 }
