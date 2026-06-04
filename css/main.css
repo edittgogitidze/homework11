@@ -6,7 +6,7 @@ body {
 }
 .header-class {
   max-width: 1184px;
-  width: 96%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -19,6 +19,8 @@ body {
 }
 .buttons-class {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 142px;
@@ -61,11 +63,11 @@ nav {
 .sign-class {
   width: 115px;
   height: 49px;
-  background-color: #5d50c6;
-  border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #5d50c6;
+  border-radius: 100px;
   font-size: 14px;
   font-weight: 700;
   line-height: 120%;
@@ -81,13 +83,11 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 64px 0px;
 }
 .left-block {
   width: 412px;
   display: flex;
   flex-direction: column;
-  row-gap: 43px;
 }
 .right-block {
   width: 772px;
@@ -105,47 +105,48 @@ h1 {
   color: #000000;
 }
 span {
-  color: #ebdae1;
+  color: #f85e9f;
 }
 .left-block h4 {
   color: #19182580;
+  opacity: 50%;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
   letter-spacing: 0%;
   font-family: "Inter 28pt";
+  margin: 43px 0px;
 }
 .buttons-block {
   display: flex;
-  align-items: center;
   column-gap: 16px;
 }
 .lilac-button {
   width: 141px;
+  height: 49px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 16px 0px;
+  align-items: center;
   border-radius: 100px;
   background-color: #5d50c6;
   box-shadow: 0px 20px 35px #0000001a;
-}
-.lilac-button a {
-  color: #eeeeee;
   font-size: 14px;
   font-weight: 700;
   line-height: 120%;
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
+.lilac-button a{
+  color: #fff;
+}
 .demo-class {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   column-gap: 3.5px;
   background-color: #fff;
   width: 181px;
-  padding: 16px 0px;
+  height: 56px;
   color: #222831;
   font-size: 14px;
   font-weight: 700;
@@ -155,6 +156,9 @@ span {
   border: 1px solid #eeeeee;
   border-radius: 100px;
 }
+
+
+
 .explore-class {
   max-width: 1184px;
   width: 90%;
@@ -179,7 +183,7 @@ span {
   width: 100px;
   height: 100px;
   border-radius: 100px;
-  border: 1px solid#1918251A ;
+  border: 1px solid#1918251A;
 }
 .different-arrow {
   width: 100px;
@@ -475,7 +479,6 @@ span {
   display: flex;
   column-gap: 64px;
   padding: 64px 0px;
-  
 }
 
 .left-side {
@@ -504,24 +507,23 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .bg-color i {
   color: #fff;
   font-size: 15.6px;
 }
 
-.right-side{
+.right-side {
   display: flex;
   column-gap: 32px;
 }
-.column-class{
+.column-class {
   width: 165.33px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
 }
-.column-class h5{
+.column-class h5 {
   color: #191825;
   font-size: 23px;
   font-weight: 700;
@@ -529,13 +531,13 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
-.list-class{
+.list-class {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
 }
-.list-class a{
-  color:#191825BF ;
+.list-class a {
+  color: #191825bf;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
@@ -543,40 +545,16 @@ span {
   font-family: "Inter 28pt";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
-  /* .buttons-class {
-    width: 100%;
-  }
-  .logo {
-    width: 100%;
-  }
-  nav {
+  .navigation {
     display: none;
   }
   .log-button {
     display: block;
-    width: 100%;
   }
   .sign-class {
     display: block;
-    width: 100%;
-  } */
+  }
   .burger-bar {
     display: block;
     width: 39.4px;
@@ -587,22 +565,21 @@ span {
     color: #fff;
     order: 1;
   }
-  .navigation{
-    display:  none;
-  }
-  .logo{
+
+  .logo {
     order: 2;
   }
-  .buttons-class{
+  .buttons-class {
     order: 3;
   }
+
   .travel-class {
-    flex-direction: column;
+    flex-direction: column-reverse;
     row-gap: 64px;
   }
+
   .left-block {
     width: 100%;
-    order: 2;
     text-align: center;
   }
   .buttons-block {
@@ -612,7 +589,6 @@ span {
   }
   .right-block {
     width: 100%;
-    order: 1;
   }
   h1 {
     font-size: 56px;
@@ -680,20 +656,19 @@ span {
   .description {
     width: 100%;
   }
-  .footer-box{
+  .footer-box {
     display: flex;
     flex-direction: column;
     row-gap: 64px;
   }
-  .right-side{
+  .right-side {
     width: 100%;
     justify-content: space-between;
   }
 }
-@media(max-width:500px)
-{
-  .header-class{
-    column-gap: 20px;
+@media (max-width: 500px) {
+  .header-class {
+    
     width: 95%;
   }
 }
@@ -714,22 +689,11 @@ span {
     flex-direction: column;
     row-gap: 24px;
   }
-  .buttons-block h5 {
-    background-color: #5d50c6;
-    color: #eeeeee;
-    width: 398px;
-    padding: 16px 32px;
-    border-radius: 100px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 120%;
-    letter-spacing: 0%;
-    font-family: "Inter 28pt";
+
+  .demo-class {
     width: 100%;
   }
-  .demo-class {
-    justify-content: center;
-    align-items: center;
+  .lilac-button{
     width: 100%;
   }
   h1 {
@@ -769,13 +733,12 @@ span {
     width: 100%;
   }
 
-  .list-class{
+  .list-class {
     display: none;
   }
- 
-.right-side{
-  flex-direction: column;
-  row-gap: 64px;
-}
 
+  .right-side {
+    flex-direction: column;
+    row-gap: 64px;
+  }
 }
