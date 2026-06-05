@@ -287,9 +287,10 @@ span {
 
 .large-class {
   max-width: 1312px;
-  width: 95%;
-  display: flex;
+  width: 90%;
   margin: 0 auto;
+  display: flex;
+ justify-content: center;
   align-items: center;
   padding: 64px 0px;
 }
@@ -299,11 +300,11 @@ span {
 }
 
 .helping-class {
-  width: 441px;
+  /* width: 441px; */
   display: flex;
   flex-direction: column;
   row-gap: 64px;
-  align-items: center;
+  /* align-items: center; */
 }
 .different-section {
   margin-right: 139px;
@@ -645,7 +646,7 @@ span {
   }
   .helping-class {
     width: 100%;
-    text-align: center;
+   
   }
   .mini-box {
     flex-direction: column;
