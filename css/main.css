@@ -136,7 +136,7 @@ span {
   letter-spacing: 0%;
   font-family: "Inter 28pt";
 }
-.lilac-button a{
+.lilac-button a {
   color: #fff;
 }
 .demo-class {
@@ -156,8 +156,6 @@ span {
   border: 1px solid #eeeeee;
   border-radius: 100px;
 }
-
-
 
 .explore-class {
   max-width: 1184px;
@@ -241,12 +239,11 @@ span {
   border-radius: 32px;
 }
 .mini-box {
-  width: 309.33px;
   display: flex;
 }
 .description {
   padding: 32px;
-  width: 309.33px;
+ 
 }
 .star-class {
   margin-top: 32px;
@@ -546,6 +543,9 @@ span {
 }
 
 @media (max-width: 1024px) {
+  .about-country {
+    width: 100%;
+  }
   .navigation {
     display: none;
   }
@@ -648,7 +648,14 @@ span {
     text-align: center;
   }
   .mini-box {
+    flex-direction: column;
     width: 100%;
+  }
+  .mini-box h6{
+    order: 1;
+  }
+  .mini-box h5{
+    order: 2;
   }
   .photo-class {
     width: 100%;
@@ -668,9 +675,9 @@ span {
 }
 @media (max-width: 500px) {
   .header-class {
-    
     width: 95%;
   }
+ 
 }
 @media (max-width: 430px) {
   .navigation {
@@ -693,7 +700,7 @@ span {
   .demo-class {
     width: 100%;
   }
-  .lilac-button{
+  .lilac-button {
     width: 100%;
   }
   h1 {
