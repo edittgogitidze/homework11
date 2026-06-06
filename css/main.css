@@ -2,7 +2,7 @@ body {
   background-color: #fff;
 }
 .for-margin {
-  margin-top: 197px;
+  margin-bottom: 197px;
 }
 .header-class {
   max-width: 1184px;
@@ -85,6 +85,7 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  padding: 64px 0px;
 }
 .left-block {
   width: 412px;
@@ -161,21 +162,16 @@ span {
 
 /*second section*/
 .explore-class {
-  max-width: 1184px;
+  width: 1184px;
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: 64px;
-  padding: 64px 0px 24px 0px;
+  padding: 64px 0px;
 }
-.img-style {
-  width: 100%;
-  border-radius: 32px 32px 0px 0px;
-  display: block;
-}
+
 .arrow-class {
-  width: 232px;
   display: flex;
   column-gap: 32px;
   align-items: center;
@@ -214,8 +210,7 @@ span {
 
 .head-zone {
   display: flex;
-  /* width: 952px; */
-  /* align-items: center; */
+  align-items: center;
 }
 .text-class h4 {
   color: #f85e9f;
@@ -237,12 +232,20 @@ span {
   display: flex;
   column-gap: 32px;
 }
+.img-style {
+  width: 100%;
+  border-radius: 32px 32px 0px 0px;
+  display: block;
+}
+
 .photo-class {
   width: 373.33px;
+  height: 575px;
   border-radius: 32px;
 }
 .mini-box {
   display: flex;
+  
 }
 .description {
   padding: 32px;
